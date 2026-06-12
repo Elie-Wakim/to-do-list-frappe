@@ -1,0 +1,8 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>{{ doc.title }}</h1>
+<p><strong>Status:</strong> {{ doc.status }}</p>
+<p><strong>Due Date:</strong> {{ doc.due_date }}</p>
+<p>{{ doc.description }}</p>
+{% endblock %}
